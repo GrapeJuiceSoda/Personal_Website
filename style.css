@@ -1,0 +1,65 @@
+h1 {
+  color:#8888cc;
+  font-family:arial;
+}
+a {
+  font-family:arial;
+}
+a:hover {
+	color:#8888cc;
+	background-color: transparent;
+	text-decoration: underline;
+}
+#wat_is_xhtml{
+	width: 600px;
+	top: 200px;
+	left: 20px;
+}
+#plan9{
+	position:absolute;
+	width: 600px;
+	top: 750px;
+	left: 20px;
+}
+#random_text{
+	position:absolute;
+	width: 600px;
+	top: 1280px;
+	left: 20px;
+}
+#end_img{
+	position:absolute;
+	width: 600px;
+	top: 1900px;
+	left: 20px;
+}
+
+.Meaning {
+  font-family:arial;
+  font-weight:bold;
+  color:#8888cc;
+}
+.bar{
+	background-color:#EAFFFF;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 2px;
+
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width: 0px;
+
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+
+	border-left-color: black;
+	border-left-style: solid;
+	border-left-width: 0px;
+
+	border-width: 2px 0;
+}
+body{
+	background-color:#FFFFEA;
+}
+*{ cursor: url(http://9front.org/img/cursor.png), auto; }
