@@ -49,6 +49,15 @@ img {
 	background-color: white;
 }
 
+.m_blog_box_red{
+ 	width: 45em;
+ 	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: 1px solid #800000;
+	background-color: #ffffee;
+}
+
 
 /*Box Bar*/
 .m_box_bar {
