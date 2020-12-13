@@ -79,6 +79,14 @@ img {
  color:white;
 }
 
+.box_bar {
+ background:#b9d9b7;
+ color:#2f4d0c;
+ border-bottom-color: black;
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
+}
+
 
 /*Elements*/
 p {
@@ -127,11 +135,6 @@ a:hover { color:red; text-decoration: underline;}
 	position: absolute;
 	right:10px;
 	bottom:10px;
-}
-
-.box_bar {
- background:#b9d9b7;
- color:#2f4d0c
 }
 
 .column {
