@@ -42,7 +42,7 @@ img {
 
 .m_blog_box{
  	width: 45em;
- 	margin: auto;
+	margin: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	border: 1px solid black;
@@ -69,14 +69,20 @@ img {
 }
 
 .m_blog_main{
-	float:right;
-	width:80%;
+	float:left;
+	width:50%;
 	/* background-color: #f1f1f1; */
 }
 
 .m_blog_nav{
 	float:left;
 	width:20%;
+	/* background-color: #e2f2d1; */
+}
+
+.m_blog_pictures{
+	float:left;
+	width:30%;
 	/* background-color: #e2f2d1; */
 }
 
