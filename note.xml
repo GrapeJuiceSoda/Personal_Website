@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carmel>
+  <member realtion="brother">
+    <name>
+      Tyler
+    </name>
+    <image pic="bro.jpg"/>
+    <p>
+      asdasdasdasdasdasdasdasdasd
+      qweqwenadjansdnaujsdoanf
+      asdajfiqfoiqnefnwegoisgsjpg
+    </p>
+  </member>
+
+  <member realtion="mother">
+    <name>
+      Masayo
+    </name>
+    <image pic="mom.jpg"/>
+    <p>
+      asdasdasdasdasdasdasdasdasd
+      qweqwenadjansdnaujsdoanf
+      asdajfiqfoiqnefnwegoisgsjpg
+    </p>
+  </member>
+
+  <member realtion="father">
+    <name>
+      Michael
+    </name>
+    <image pic="dad.jpg"/>
+    <p>
+      asdasdasdasdasdasdasdasdasd
+      qweqwenadjansdnaujsdoanf
+      asdajfiqfoiqnefnwegoisgsjpg
+    </p>
+  </member>
+
+  <pet type="dog">
+    <name>
+      Enzo
+    </name>
+    <image pic="enzo.jpg"/>
+    <p>
+      asdasdasdasdasdasdasdasdasd
+      qweqwenadjansdnaujsdoanf
+      asdajfiqfoiqnefnwegoisgsjpg
+    </p>
+  </pet>
+</carmel>
