@@ -39,6 +39,45 @@
 
 			<div class="i_blog_box">
 				<div class="i_box_bar_blue">
+					<h2>Basics of LISP</h2>
+				</div>
+				<h3>What is lisp?</h3>
+				<p>Lisp is very old language created by John McCarthy. John McCarthy showed that with only a few simple operators and the notion of a function, one can create a elegant and extensible programming language.</p>
+				<p>During winter break(2020) I learned lisp by using Common Lisp, or CLisp. Common Lisp is dynamically typed and compiled. This means that like python or javascript, variables do not have types and can be assigned any value. Because common lisp is compiled, its speed does not fall behind C or other system languages.</p>
+				<h3>Seven Primitive Operators</h3>
+				<ol>
+					<li><strong>quote</strong></li>
+						<p>(quote x) returns <em>x</em>. Can be abbreviated as <em>'x</em>. Anything that is not a quote will be evaluated as a function.</p>
+						<br/>
+						<p>> (quote a)</p>
+						<p>a</p>
+						<p>> 'a</p>
+						<p>a</p>
+					<li><strong>atom</strong></li>
+						<p>(atom x) returns t, which means true, if the value of x is an atom or an empty list. Otherwise it returns (), which is an empty list which means false. In lisp <em>t</em> is an atom</p>
+						<br/>
+						<p>>(atom 'a)</p>
+						<p>t</p>
+						<p>>(atom '())</p>
+						<p>t</p>
+						<p>>(atom '(a b c))</p>
+						<p>()</p>
+						<p>>(atom (atom 'a))</p>
+						<p>t</p>
+					<li><strong>eq</strong></li>
+						<p>(eq x y) returns t if the values of x and y are the same atom or both empty lists. It will return a empty list other wise.</p>
+						<p>> (eq 'a 'a)</p>
+						<p>t</p>
+						<p>> (eq 'a 'b)</p>
+						<p>()</p>
+						<p>> (eq (atom 'a) (atom 'b))</p>
+						<p>t</p>
+
+				</ol>
+			</div>
+
+			<div class="i_blog_box">
+				<div class="i_box_bar_blue">
 					<h2>Why XHTML Instead of HTML?</h2>
 				</div>
 					<ul> <!-- Unordered List -->
@@ -56,12 +95,6 @@
 				</div>
 				<img src="./pictures/xp_xhtml.gif"/><br/>
 			</div>
-
-    	<!-- Taken from 9front page -->
-			<div class="end_img">
-				<a href="http://9front.org/"><img src="./pictures/power36.gif" alt="powered by plan9" border="0"></a>
-			</div>
-
 		</div>
   </body>
 </html>
