@@ -45,20 +45,6 @@ img {
 }
 
 /*Inner Box*/
-.box {
-	border: 1px solid #2f4d0c ;
- 	color:#2f4d0c;
- 	margin: 1em;
- 	background-color: white;
-}
-
-.i_box {
-	border: 1px solid #2f4d0c;
- 	color:black;
-	margin: 1em;
-	background-color: white;
-}
-
 .i_blog_box{
  	width: 45em;
 	margin: auto;
@@ -103,7 +89,7 @@ img {
  border-bottom-width: 1px;
 }
 
-.box_bar {
+.i_box_bar_green {
  background:#b9d9b7;
  color:#2f4d0c;
  border-bottom-color: black;
