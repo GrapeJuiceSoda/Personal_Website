@@ -69,6 +69,19 @@ img {
 .i_box_bar {
  background:#2f4d0c;
  color:white;
+
+ border-bottom-color: black;
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
+}
+
+.i_box_bar_red {
+ background:#800000;
+ color:white;
+
+ border-bottom-color: black;
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
 }
 
 .i_box_bar_purple {
@@ -92,6 +105,7 @@ img {
 .i_box_bar_green {
  background:#b9d9b7;
  color:#2f4d0c;
+
  border-bottom-color: black;
  border-bottom-style: solid;
  border-bottom-width: 1px;
