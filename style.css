@@ -2,7 +2,8 @@
  	font:13px/1.231 arial,helvetica,clean,sans-serif;
  	width: 45em;
  	margin: auto;
-  background-image: linear-gradient(#d9f0d6, #f4ffee, #f4ffee, white, white);
+  /* background-image: linear-gradient(#d9f0d6, #f4ffee, #f4ffee, white, white); */
+	background-color: #ffffee;
   background-attachment: fixed;
 }
 #page {
@@ -22,7 +23,6 @@ img {
 .o_blog_main{
 	float:left;
 	width:50%;
-	/* background-color: #f1f1f1; */
 	display:flex;
   flex-wrap: wrap;
   align-content:stretch;
@@ -31,7 +31,6 @@ img {
 .o_blog_nav{
 	float:left;
 	width:20%;
-	/* background-color: #e2f2d1; */
 	display: flex;
   flex-wrap: wrap;
   align-content:stretch;
@@ -40,7 +39,6 @@ img {
 .o_blog_pictures{
 	float:left;
 	width:30%;
-	/* background-color: #e2f2d1; */
 	display: flex;
   flex-wrap: wrap;
   align-content:stretch;
@@ -61,13 +59,6 @@ img {
 	background-color: white;
 }
 
-.i_box_red {
-	border: 1px solid #800000;
- 	color:black;
-	margin: 1em;
-	background-color: #ffffee;
-}
-
 .i_blog_box{
  	width: 45em;
 	margin: auto;
@@ -75,15 +66,6 @@ img {
 	margin-bottom: 1em;
 	border: 1px solid black;
 	background-color: white;
-}
-
-.i_blog_box_red{
- 	width: 45em;
- 	margin: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	border: 1px solid #800000;
-	background-color: #ffffee;
 }
 
 .i_blog_side{
@@ -119,11 +101,6 @@ img {
  border-bottom-color: black;
  border-bottom-style: solid;
  border-bottom-width: 1px;
-}
-
-.i_box_bar_red {
- background:#800000;
- color:white;
 }
 
 .box_bar {
@@ -194,5 +171,3 @@ a:hover { color:red; text-decoration: underline;}
   display: table;
   clear: both;
 }
-
-*{ cursor: url(http://9front.org/img/cursor.png), auto; }
