@@ -9,7 +9,7 @@
 		<link rel="manifest" href="favicon/site.webmanifest">
 	  <title>Comfy Cozy Corner</title>
     <div class="bar">
-			<a href="index.html">front</a> | <a href="plan9.html">p9</a> | <a href="random.html">b</a> | <a href="index.html">g</a> | <a href="programming.html">λ</a> | <a href="index.html">new</a> | <a href="index.html">ab</a> | <a href="index.html">qa</a> | <a href="http://cat-v.org">cat-v.org</a> |
+			<a href="index.html">front</a> | <a href="plan9.html">p9</a> | <a href="random.html">b</a> | <a href="technology.html">g</a> | <a href="programming.html">λ</a> | <a href="index.html">new</a> | <a href="index.html">ab</a> | <a href="index.html">qa</a> | <a href="http://cat-v.org">cat-v.org</a> |
     </div>
   </head>
 
@@ -21,11 +21,26 @@
 					<h2>Links</h2>
 				</div>
 				<ul>
-					<li><a href="#p1">What is XHTML</a></li>
-					<li><a href="#p2">|--Screenshot</a></li>
-					<li><a href="#p3">What is LISP</a></li>
-					<li><a href="#p4">|--Screenshot</a></li>
-					<li><a href="#p4">|--Screenshot</a></li>
+
+          <li>
+            <div class="dropdown">
+  					  <a href="#p1">What is XHTML</a>
+              <div class="dropdown-content">
+                <a href="#p2">|--Screenshot</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <a href="#p3">What is LISP</a>
+              <div class="dropdown-content">
+                <a href="#p4">|--Screenshot</a>
+                <a href="#p4">|--Screenshot</a>
+              </div>
+            </div>
+          </li>
+
 				</ul>
 			</div>
 		</div>
@@ -42,7 +57,7 @@
 
 			<div class="i_blog_box">
 				<div class="i_box_bar_blue">
-					<h2>Why XHTML Instead of HTML?</h2>
+          <h2><a name="p1"></a>Why XHTML Instead of HTML?</h2>
 				</div>
 					<ul> <!-- Unordered List -->
 						<li><strong>*</strong>  XHTML stands for <strong>EX</strong>tensible <strong>H</strong>yperText <strong>M</strong>arkup <strong>L</strong>anguage</li>
@@ -55,7 +70,7 @@
 
       <div class="i_blog_box">
 				<div class="i_box_bar_blue">
-					<h2>Basics of LISP</h2>
+          <h2><a name="p3"></a>Basics of LISP</h2>
 				</div>
 				<h3>What is lisp?</h3>
 				<p>Lisp is very old language created by John McCarthy. John McCarthy showed that with only a few simple operators and the notion of a function, one can create a elegant and extensible programming language.</p>
@@ -88,6 +103,24 @@
 						<p>()</p>
 						<p>> (eq (atom 'a) (atom 'b))</p>
 						<p>t</p>
+          <li><strong>car</strong></li>
+            <p>(car x) returns the first element of x. x therefore must be a list.</p>
+            <p>(car '(a b c))</p>
+            <p>>a</p>
+          <li><strong>cdr</strong></li>
+            <p>(cdr x) returns everything after the first element of x. x again must be a list.</p>
+            <p>>(cdr '(a b c))</p>
+            <p>(b c)</p>
+          <li><strong>cons</strong></li>
+            <p>(cons x y) returns the list y with x concatenated to the front of the list</p>
+            <p>>(cons 'a '(b c)</p>
+            <p>(a b c)</p>
+            <p>>(cons 'a (cons 'b '(c)))</p>
+            <p>(a b c)</p>
+          <li><strong>cond</strong></li>
+            <p>(cond (expression return_value) (expression return_value)) evaluates as follows. The expressions are evaluated in order from left to right. The process of evaluation continues until, an expression returns t. Once an expression is found to evaluate to t, the return_value is returned as the value of the whole expression.</p>
+            <p>>(cond ((eq 'a 'b) 'first) (atom 'a 'second))</p>
+            <p>second</p>
 				</ol>
 			</div>
     </div>
