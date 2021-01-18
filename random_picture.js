@@ -3,7 +3,7 @@ var random_image = ["http://9front.org/img/9community01.png", "http://9front.org
 function getRandomImg(img_arr) {
   var random_int = Math.floor(Math.random() * img_arr.length);
   var img = img_arr[random_int];
-  var imgStr = '<img src="' + img + '"/>';
+  var imgStr = '<img src="' + img + '" alt="Please turn off https to view image"/>';
   document.write(imgStr);
   document.close();
 }

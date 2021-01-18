@@ -55,6 +55,13 @@ img {
 	background-color: white;
 }
 
+.i_blog_inv{
+ 	width: 45em;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 .i_blog_side{
 	width:90%;
 	margin-top: 1em;
@@ -155,12 +162,6 @@ a:hover { color:red; text-decoration: underline;}
 	border-width: 2px 0;
 }
 
-.end_img{
-	position: absolute;
-	right:10px;
-	bottom:10px;
-}
-
 .column {
   float: left;
   width: 32%;
@@ -193,6 +194,11 @@ a:hover { color:red; text-decoration: underline;}
 }
 
 .dropdown-content a:hover {color: red;}
+
+button {
+  margin-bottom: 20px;
+  margin-left: 40%;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;} 
