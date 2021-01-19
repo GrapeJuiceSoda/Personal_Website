@@ -41,6 +41,15 @@
             </div>
           </li>
 
+          <li>
+            <div class="dropdown">
+              <a href="#p6">XML Parsing</a>
+              <div class="dropdown-content">
+                <a href="#p7">|--Screenshot</a>
+              </div>
+            </div>
+          </li>
+
 				</ul>
 			</div>
 		</div>
@@ -54,6 +63,42 @@
 			</div>
 
 			
+      <div class="i_blog_box">
+        <div class="i_box_bar_blue">
+          <h2><a name="p6">How to Parse XML</a></h2>
+        </div>
+        <pre>
+          <code>
+   &lt;ol&gt;
+   &lt;li id="item1"&gt;&lt;/li&gt;
+   &lt;li id="item2"&gt;&lt;/li&gt;
+   &lt;li id="item3"&gt;&lt;/li&gt;
+   &lt;/ol&gt;
+
+   &lt;script&gt;
+   var parser, xmlDoc;
+   var text = 
+   "&lt;Family&gt;&lt;Members"&gt; +
+   "&lt;Mother&gt;Mother's name&lt;/Mother"&gt; +
+   "&lt;Father&gt;Father's name&lt;/Father"&gt; +
+   "&lt;Brother&gt;Brother's name&lt;/Brother"&gt; +
+   "&lt;/Members&gt;&lt;/Family"&gt;;
+
+   parser = new DOMParser();
+   xmlDoc = parser.parseFromString(text,"text/xml");
+
+   Document.getElementById("item1").innerHTML =
+      xmlDoc.getElementsByTagName("Mother")[0].childNodes[0].nodeValue;
+   
+   Document.getElementById("item2").innerHTML =
+      xmlDoc.getElementsByTagName("Father")[0].childNodes[0].nodeValue;
+   
+   Document.getElementById("item3").innerHTML =
+      xmlDoc.getElementsByTagName("Brother")[0].childNodes[0].nodeValue;
+   &lt;/script&gt;
+          </code>
+        </pre>
+      </div>
 
 			<div class="i_blog_box">
 				<div class="i_box_bar_blue">
